@@ -22,4 +22,22 @@ fUnction encrypt(text) {
 return result;
    }      
       
-      encrypt('hello!');
+      decrypt('hello!');
+fUnction decrypt(text) {
+   let result = '';
+   
+   for(let i = 0; i < text.length; i++) {
+    let letter = text[i];  
+    let letterIndex = letters.indexOf(letter);
+      
+   if (letterIndex < 0) { 
+      result += letter;
+   )
+
+  else {
+     result += letters[letterIndex];
+    )  
+ } 
+   
+return result;
+   }      
