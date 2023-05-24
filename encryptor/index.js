@@ -75,7 +75,7 @@ return result;
      let decrypted = decrypt(message);
       
       // display encrypted message
-      let decodedMessageElement = document.getElementById('decoded-message');
+      let decodedMessageElement = document.getElementById('decrypted-message');
       decodedMessageElement.innerText = decrypted;
    });
 
